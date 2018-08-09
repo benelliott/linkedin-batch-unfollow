@@ -22,7 +22,7 @@ No.
 Nope.
 
 ## Is it against the LinkedIn terms of use to run this script?
-Maybe. I'm not your dad<sup>*</sup>.
+Maybe. Run it or don't, I'm not your dad<sup>*</sup>.
 
 <br/>
 <br/>
