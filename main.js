@@ -74,10 +74,6 @@ const fs = require('fs');
                 await resultEl.hover();
                 await page.waitFor(200);
             }
-
-            if (connections.length > 10) {
-                break;
-            }
         }
 
         console.log(`Looks like that's everyone! Found ${connections.length} connections overall.`);
@@ -124,7 +120,7 @@ const fs = require('fs');
             console.log(
                 `> Failed to unfollow ${connection.name}. A screenshot has been saved for debugging.`
             );
-            await page.screenshot({path: `screenshots/ERROR_${connection.url}_${Date.now()}.png`});
+            await page.screenshot({path: `screenshots/ERROR_${encodeURIComponent(connection.url)}_${Date.now()}.png`});
         }
     }
 
