@@ -1,14 +1,14 @@
 {
-  "name": "linkedin",
-  "version": "1.0.0",
+  "name": "linkedin-batch-unfollow",
+  "version": "0.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ben Elliott",
+  "license": "None",
   "dependencies": {
     "inquirer": "^6.1.0",
     "puppeteer": "^1.6.2"
